@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: dev-services-secret
+  namespace: argo-events
+data:
+  serviceToken: secret
